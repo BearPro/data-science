@@ -1,7 +1,6 @@
 import json
 from functools import reduce
-
-from numpy import fabs
+# from numpy import fabs
 
 def skip(n, items):
     counter = 0
