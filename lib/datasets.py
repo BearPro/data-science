@@ -11,7 +11,7 @@ def skip(n, items):
             counter += 1
 
 def from_json(path):
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 def from_csv(path):
@@ -24,7 +24,7 @@ def from_csv(path):
             xs[tx_number] = set([tx_value])
         return xs
 
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding='utf-8') as file:
         return reduce(
             add_item,
             map(
