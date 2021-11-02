@@ -11,3 +11,5 @@ efficient-apriori==1.1.1
 fpgrowth-py==1.0.0
 pyarmviz==0.1.4
 umap-learn==0.5.1
+scikit-learn==1.0
+sklearn==0.0
